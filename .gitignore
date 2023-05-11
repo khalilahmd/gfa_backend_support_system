@@ -4,5 +4,5 @@ node_modules/
 # Ignore build output
 dist/
 
-#Ignore .env files
+# Ignore .env files
 .env

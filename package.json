@@ -20,6 +20,7 @@
   "homepage": "https://github.com/khalilahmd/gfa_backend_support_system#readme",
   "dependencies": {
     "@koa/multer": "^3.0.2",
+    "aws-sdk": "^2.1376.0",
     "dotenv": "^16.0.3",
     "fs": "^0.0.1-security",
     "koa": "^2.14.2",
