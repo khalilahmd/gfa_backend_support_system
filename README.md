@@ -9,7 +9,8 @@ To get started with this project, follow these steps:
 3- Create a .env file based on the .env.example file and set the required environment variables,  
 4- checkout to feature/support branch "git fetch && git checkout feature/support",  
 5- Install dependencies again: npm install,  
-5- Start the server: npm start (please make sure you port for database and server connection are open)
+6- Start the server: npm start (please make sure you port for database and server connection are open)
+7- You can access your APIs through "(http://localhost:3000)"
 
 **Usage**
 Once the server is running, you can use the following endpoints to interact with the support system:
@@ -42,7 +43,7 @@ If you'd like to contribute to this project, you can follow these steps:
 4- Push your changes to your fork: git push origin my-new-feature,  
 5- Create a pull request from your fork to the main repository,  
 
-**Things to add**
+**Things to add**  
 Unit test,  
 Error Handling,  
 Containerization,  
