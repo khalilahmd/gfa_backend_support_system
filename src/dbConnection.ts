@@ -1,4 +1,6 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+dotenv.config();
 
 export const connectDatabase = () => {
   const uri = process.env.DATABASE_URI || 'mongodb://localhost/gfa-support';

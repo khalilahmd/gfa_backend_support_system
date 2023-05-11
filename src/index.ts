@@ -2,6 +2,8 @@ import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 import { connectDatabase } from './dbConnection';
 import mainRouter from './routes/index';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = new Koa();
 app.use(bodyParser());
